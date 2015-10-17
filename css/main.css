@@ -158,43 +158,7 @@ nav a:hover {
 /* ==========================================================================
    Author's custom styles
    ========================================================================== */
-/**
- * CSS3 3 Columns Added
- */
-.columns {
-    -webkit-column-count: 3; /* Chrome, Safari, Opera */
-    -moz-column-count: 3; /* Firefox */
-    column-count: 3;
-	-webkit-column-rule-style: solid; /* Chrome, Safari, Opera */
-    -moz-column-rule-style: solid; /* Firefox */
-    column-rule-style: solid;
-	-webkit-column-gap: 40px; /* Chrome, Safari, Opera */
-    -moz-column-gap: 40px; /* Firefox */
-    column-gap: 40px;
-	-webkit-column-rule: 1px solid lightblue; /* Chrome, Safari, Opera */
-    -moz-column-rule: 1px solid lightblue; /* Firefox */
-    column-rule: 1px solid lightblue;
-}
-/**
- * CSS3 style Rounded Corners
- */
-#rcorners{
-	border-radius: 25px;
-    border: 2px solid #f16529;
-    padding: 20px; 
-    width: 500px;
-    height: 55px; 
- }
-/**
- * CSS3 style Border image
- */
- #borderimg{ 
-    border: 10px solid transparent;
-    padding: 15px;
-    -webkit-border-image: url(tile.png) 30 round; /* Safari 3.1-5 */
-    -o-border-image: url(tile.png) 30 round; /* Opera 11-12.1 */
-    border-image: url(tile.png) 30 round;
-}
+
 
 
 
@@ -460,3 +424,31 @@ nav a:hover {
 :-ms-input-placeholder {
     color:#888;
 }
+/**
+ * CSS3 3 Columns Added
+ */
+.columns {
+    -webkit-column-count: 3; /* Chrome, Safari, Opera */
+    -moz-column-count: 3; /* Firefox */
+    column-count: 3;
+	-webkit-column-rule-style: solid; /* Chrome, Safari, Opera */
+    -moz-column-rule-style: solid; /* Firefox */
+    column-rule-style: solid;
+	-webkit-column-gap: 40px; /* Chrome, Safari, Opera */
+    -moz-column-gap: 40px; /* Firefox */
+    column-gap: 40px;
+	-webkit-column-rule: 1px solid lightblue; /* Chrome, Safari, Opera */
+    -moz-column-rule: 1px solid lightblue; /* Firefox */
+    column-rule: 1px solid lightblue;
+}
+/**
+ * CSS3 style Rounded Corners
+ */
+#rcorners{
+	border-radius: 25px;
+    border: 2px solid #8AC007;
+    padding: 20px; 
+    width: 500px;
+    height: 55px; 
+ }
+		
