@@ -392,6 +392,7 @@ nav a:hover {
   padding:10px;
   border-radius:5px;
   color:#000;
+	
 }
 #contact-form button[type="submit"] , #contact-form button[type="reset"]{
   cursor:pointer;
@@ -405,4 +406,16 @@ nav a:hover {
   margin:0 0 5px;
   padding:10px;
   border-radius:5px;
+}
+::-webkit-input-placeholder {
+    color:#888;
+}
+:-moz-placeholder {
+    color:#888;
+}
+::-moz-placeholder {
+    color:#888;
+}
+:-ms-input-placeholder {
+    color:#888;
 }
