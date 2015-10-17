@@ -425,7 +425,7 @@ nav a:hover {
     color:#888;
 }
 /**
- * CSS3 Multiple Columns Added
+ * CSS3 3 Columns Added
  */
 .columns {
     -webkit-column-count: 3; /* Chrome, Safari, Opera */
@@ -440,3 +440,15 @@ nav a:hover {
 	-webkit-column-rule: 1px solid lightblue; /* Chrome, Safari, Opera */
     -moz-column-rule: 1px solid lightblue; /* Firefox */
     column-rule: 1px solid lightblue;
+}
+/**
+ * CSS3 style Rounded Corners
+ */
+#rcorners{
+	border-radius: 25px;
+    border: 2px solid #8AC007;
+    padding: 20px; 
+    width: 500px;
+    height: 55px; 
+ }
+		
