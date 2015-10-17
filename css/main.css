@@ -189,6 +189,7 @@ nav a:hover {
         margin: 0 1.7%;
         padding: 25px 2%;
         margin-bottom: 0;
+        font-family: 'Josefin Slab', serif;
     }
 
     nav li:first-child a {
