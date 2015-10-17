@@ -180,11 +180,14 @@ nav a:hover {
  */
 #rcorners{
 	border-radius: 25px;
-    border: 2px solid #8AC007;
+    border: 2px solid #f16529;
     padding: 20px; 
     width: 500px;
-    height: 55px; 
+    height: 75px; 
  }
+ /**
+ * CSS3 style Border Image
+ */
  #borderimg1 { 
     border: 10px solid transparent;
     padding: 15px;
@@ -192,8 +195,16 @@ nav a:hover {
     -o-border-image: url(border.png) 30 round; /* Opera 11-12.1 */
     border-image: url(border.png) 30 round;
 }
+/**
+ * CSS3 style Box Shadow
+ */
 
-
+.boxshadow{
+    width: 500px;
+    height: 150px;
+    background-color: #f16529;
+    box-shadow: 10px 10px 5px #8AC007;
+}
 
 
 
