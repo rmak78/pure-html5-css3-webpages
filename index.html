@@ -97,11 +97,46 @@
 
 				<aside>
 					<h3>
-						aside
+						Contact Form
 					</h3>
-					<p>
-						Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam sodales urna non odio egestas tempor. Nunc vel vehicula ante. Etiam bibendum iaculis libero, eget molestie nisl pharetra in. In semper consequat est, eu porta velit mollis nec. Curabitur posuere enim eget turpis feugiat tempor. Etiam ullamcorper lorem dapibus velit suscipit ultrices.
-					</p>
+<form id="contact-form" action="/" method="post">
+  <h3>Get in touch</h3>
+  <h4>Fill in the form below, and we'll get back to you within 24 hours.</h4>
+  <div>
+    <label>
+      <span>Name: (required)</span>
+      <input placeholder="Please enter your name" type="text" tabindex="1" required autofocus>
+    </label>
+  </div>
+  <div>
+    <label>
+      <span>Email: (required)</span>
+      <input placeholder="Please enter your email address" type="email" tabindex="2" required>
+    </label>
+  </div>
+  <div>
+    <label>
+      <span>Telephone: (required)</span>
+      <input placeholder="Please enter your number" type="tel" tabindex="3" required>
+    </label>
+  </div>
+  <div>
+    <label>
+      <span>Website: (required)</span>
+      <input placeholder="Begin with http://" type="url" tabindex="4" required>
+    </label>
+  </div>
+  <div>
+    <label>
+      <span>Message: (required)</span>
+      <textarea placeholder="Include all the details you can" tabindex="5" required></textarea>
+    </label>
+  </div>
+  <div>
+    <button name="submit" type="submit" id="contact-submit">Send Email</button>
+    <button name="cancel" type="reset" id="clear-form">Cancel</button>
+  </div>
+</form>
 				</aside>
 
 			</div> <!-- #main -->
@@ -124,20 +159,6 @@
 		<script src="js/main.js">
 		</script>
 
-		<!-- Google Analytics: change UA-XXXXX-X to be your site's ID. -->
-		<script>
-			(function(b,o,i,l,e,r)
-				{
-					b.GoogleAnalyticsObject=l;b[l]||(b[l]=
-						function()
-						{
-							(b[l].q=b[l].q||[]).push(arguments)
-						});b[l].l=+new Date;
-					e=o.createElement(i);r=o.getElementsByTagName(i)[0];
-					e.src='//www.google-analytics.com/analytics.js';
-					r.parentNode.insertBefore(e,r)
-				}(window,document,'script','ga'));
-			ga('create','UA-XXXXX-X','auto');ga('send','pageview');
-		</script>
+		 
 	</body>
 </html>
