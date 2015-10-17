@@ -4,6 +4,8 @@ html {
     color: #222;
     font-size: 1em;
     line-height: 1.4;
+    font-family: 'Open Sans', sans-serif;
+   
 }
 
 ::-moz-selection {
@@ -57,9 +59,11 @@ textarea {
    ========================================================================== */
 
 body {
-    font: 16px/26px Helvetica, Helvetica Neue, Arial;
+    font: 16px/26px ;
 }
-
+h1, h2, h3, h4, h5, h6 {
+	font-family: 'Josefin Slab', serif;
+}
 .wrapper {
     width: 90%;
     margin: 0 5%;
@@ -135,6 +139,7 @@ nav a:hover {
 .main aside {
     color: white;
     padding: 0px 5% 10px;
+    font-family: 'Raleway', sans-serif;
 }
 
 .footer-container footer {
