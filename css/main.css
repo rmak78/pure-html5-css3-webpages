@@ -499,5 +499,7 @@ Linear Gradient
 :-ms-input-placeholder {
     color:#888;
 }
-
-		
+.ourprocess{
+	float:right;
+	margin-right:-375px;
+}		
