@@ -214,6 +214,22 @@ Border Images
     -o-border-image: url(../images/border.png) 30 stretch; /* Opera 11-12.1 */
     border-image: url(../images/border.png) 30 stretch;
 }
+/****************************************************
+Transparency in Images/ Background Color
+*****************************************************/
+
+div.transimg img{
+    opacity: 0.4;
+    filter: alpha(opacity=40); /* For IE8 and earlier */
+}
+
+div.transimg img:hover {
+    opacity: 1.0;
+    filter: alpha(opacity=100); /* For IE8 and earlier */
+}
+
+
+
 
 
 
