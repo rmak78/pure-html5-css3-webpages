@@ -242,7 +242,6 @@ Page Styles
 *****************************************************/
 .ourprocess{
 	margin-right:-375px;
-	margin-top:30px;
 	width:42% !important;	
 }
 .box.left {
@@ -334,6 +333,7 @@ Page Styles
     .main aside {
         float: right;
         width: 28%;
+		margin-top:30px;
     }
 }
 
