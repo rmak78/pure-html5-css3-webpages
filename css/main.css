@@ -237,10 +237,19 @@ Linear Gradient
     background: -moz-linear-gradient(bottom right, red, blue); /* For Firefox 3.6 to 15 */
     background: linear-gradient(to bottom right, red , blue); /* Standard syntax (must be last) */
 }
-
-
-
-
+/****************************************************
+Page Styles
+*****************************************************/
+.ourprocess{
+	margin-right:-375px;
+	margin-top:30px;
+	width:42% !important;	
+}
+.box.left {
+	width: 48%;
+	float:left;
+	padding: 5px;
+}
 
 
 
@@ -499,7 +508,4 @@ Linear Gradient
 :-ms-input-placeholder {
     color:#888;
 }
-.ourprocess{
-	float:right;
-	margin-right:-375px;
-}		
+		
