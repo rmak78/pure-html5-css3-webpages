@@ -193,6 +193,8 @@ nav a:hover {
 div.boxshadow{
  
     box-shadow: 10px 10px 5px #f16529;
+	padding:1px;
+	margin:5px;
 }
 
 
