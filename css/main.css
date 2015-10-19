@@ -192,7 +192,7 @@ nav a:hover {
 
 div.boxshadow{
  
-    box-shadow: 10px 10px 5px #8AC007;
+    box-shadow: 10px 10px 5px #f16529;
 }
 
 
@@ -241,8 +241,9 @@ Linear Gradient
 Page Styles
 *****************************************************/
 .ourprocess{
-	margin-right:-375px;
+	margin-right:-435px;
 	width:42% !important;	
+	padding:0px 10% 10px !important;
 }
 .box.left {
 	width: 48%;
